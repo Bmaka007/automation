@@ -42,7 +42,7 @@ for indi_device in final_list:
 for i in range(2,4):
     for y in ch_number:
         sh1.cell(row=i, column =1).value = y
-        
+
 wb.save("excel_test.xlsx")
 
 
